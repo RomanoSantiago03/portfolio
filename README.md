@@ -1,16 +1,33 @@
-# React + Vite
+# Portfolio · Santiago Romano
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal publicado en **https://romanodev.vercel.app/**
 
-Currently, two official plugins are available:
+Hecho con React 19 y Vite. Se despliega automáticamente en Vercel con cada push a `main`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Cómo editar el contenido
 
-## React Compiler
+Todo el contenido está en `src/data/`, no hace falta tocar los componentes:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Archivo | Qué contiene |
+|---|---|
+| `profile.js` | Nombre, links de contacto, WhatsApp, Instagram y CV |
+| `experience.js` | Experiencia laboral y pasantías |
+| `projects.js` | `featuredProjects` (destacados) y `careerProjects` (carrera), con `myPart`, demo, docs o repo privado |
+| `skills.js` | Tecnologías por categoría y la lista de la franja animada de logos |
+| `icons.js` | Logos locales en `src/assets/icons/` (se pintan en blanco o negro con CSS mask) |
 
-## Expanding the ESLint configuration
+Para sumar una tecnología con logo: descargá el SVG de [devicon](https://devicon.dev/) a `src/assets/icons/`, importalo en `icons.js` y usá ese mismo nombre en `skills.js` o en `tech` de un proyecto.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Correr en local
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
