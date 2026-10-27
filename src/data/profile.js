@@ -6,8 +6,7 @@ export const profile = {
   location: 'Mendoza, Argentina',
   email: 'romanosantiagonicolas@gmail.com',
   github: 'https://github.com/RomanoSantiago03',
-  linkedin:
-    'https://www.linkedin.com/in/santiago-nicol%C3%A1s-romano-707305360/',
+  linkedin: 'https://www.linkedin.com/in/santiagoromano-dev',
   // Formato wa.me: 549 + característica sin 0 + número sin 15. Dejalo vacío ("") para ocultarlo.
   whatsapp: 'https://wa.me/5492613643187',
   instagram: '', // ej: "https://instagram.com/tu_usuario"
