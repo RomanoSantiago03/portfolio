@@ -11,5 +11,5 @@ export const profile = {
   whatsapp: 'https://wa.me/5492613643187',
   instagram: '', // ej: "https://instagram.com/tu_usuario"
   // Para mostrar el botón "Descargar CV": poné el PDF en /public y escribí la ruta, ej: "/Romano-Santiago-CV.pdf"
-  cv: '',
+  cv: '/Romano-Santiago-CV.pdf',
 };
